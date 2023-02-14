@@ -1,0 +1,159 @@
+Index: src/View/Gui.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package View;\r\n\r\npublic class Gui {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/View/Gui.java b/src/View/Gui.java
+--- a/src/View/Gui.java	(revision 9ac2c9f6ef209847c17aaba002c4e94f68fac51e)
++++ b/src/View/Gui.java	(date 1676372284749)
+@@ -1,4 +1,22 @@
+ package View;
+ 
+-public class Gui {
++import javax.swing.*;
++
++public class Gui extends JFrame{
++    private JFrame JFrame1;
++    public Gui () {
++        initialize();
++    }
++    private void initialize() {
++        JFrame1 = new JFrame();
++        JFrame1.setTitle("Area Rettangolo");
++        JFrame1.setBounds(100, 100, 450, 330);
++        JFrame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
++        JFrame1.getContentPane().setLayout(null);
++    }
++    public static void main(String[] args) {
++        Gui jframe1 = new Gui();
++        jframe1.setLocation(375, 150);
++        jframe1.setVisible(true);
++    }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"cfcc2bdf-9710-4ec7-87cc-832f93cb1826\" name=\"Changes\" comment=\"cambiato output println\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_11_14__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_11_14__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Gui.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Gui.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2LizCK8387TQ6E5LycBKyBBfZUA\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"cfcc2bdf-9710-4ec7-87cc-832f93cb1826\" name=\"Changes\" comment=\"\" />\r\n      <created>1676368565271</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1676368565271</updated>\r\n      <workItem from=\"1676368566392\" duration=\"2283000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"prima commit\">\r\n      <created>1676368708156</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676368708156</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"cambiato output println\">\r\n      <created>1676369620553</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1676369620553</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"prima commit\" />\r\n    <MESSAGE value=\"cambiato output println\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"cambiato output println\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9ac2c9f6ef209847c17aaba002c4e94f68fac51e)
++++ b/.idea/workspace.xml	(date 1676372284834)
+@@ -4,10 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cfcc2bdf-9710-4ec7-87cc-832f93cb1826" name="Changes" comment="cambiato output println">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_11_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_11_14__Changes_.xml" afterDir="false" />
++    <list default="true" id="cfcc2bdf-9710-4ec7-87cc-832f93cb1826" name="Changes" comment="aggiunto plugin gui">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gui.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/View/Gui.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Gui.form" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/View/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Gui.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,6 +45,31 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\mirko\IdeaProjects\ProgettoProva\src\View" />
++    </key>
++  </component>
++  <component name="RunManager">
++    <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="View.Gui" />
++      <module name="ProgettoProva" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="View.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Gui" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -53,7 +78,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1676368565271</updated>
+-      <workItem from="1676368566392" duration="2283000" />
++      <workItem from="1676368566392" duration="3562000" />
+     </task>
+     <task id="LOCAL-00001" summary="prima commit">
+       <created>1676368708156</created>
+@@ -69,7 +94,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1676369620553</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="aggiunto plugin gui">
++      <created>1676370987058</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1676370987058</updated>
++    </task>
++    <task id="LOCAL-00004" summary="aggiunto plugin gui">
++      <created>1676371262000</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1676371262000</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -89,6 +128,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="prima commit" />
+     <MESSAGE value="cambiato output println" />
+-    <option name="LAST_COMMIT_MESSAGE" value="cambiato output println" />
++    <MESSAGE value="aggiunto plugin gui" />
++    <option name="LAST_COMMIT_MESSAGE" value="aggiunto plugin gui" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/View/Gui.form
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<form xmlns=\"http://www.intellij.com/uidesigner/form/\" version=\"1\" bind-to-class=\"View.Gui\">\r\n  <grid id=\"27dc6\" row-count=\"1\" column-count=\"1\" layout-manager=\"GridLayoutManager\">\r\n    <margin top=\"0\" left=\"0\" bottom=\"0\" right=\"0\"/>\r\n    <constraints>\r\n      <xy x=\"20\" y=\"20\" width=\"500\" height=\"400\"/>\r\n      <grid row=\"0\" column=\"0\" row-span=\"1\" col-span=\"1\" vsize-policy=\"3\" hsize-policy=\"3\" anchor=\"0\" fill=\"3\" indent=\"0\" use-parent-layout=\"false\"/>\r\n    </constraints>\r\n    <properties/>\r\n    <border type=\"none\"/>\r\n    <children/>\r\n  </grid>\r\n</form>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/View/Gui.form b/src/View/Gui.form
+--- a/src/View/Gui.form	(revision 9ac2c9f6ef209847c17aaba002c4e94f68fac51e)
++++ b/src/View/Gui.form	(date 1676371905867)
+@@ -1,12 +1,13 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Gui">
+-  <grid id="27dc6" row-count="1" column-count="1" layout-manager="GridLayoutManager">
++  <grid id="27dc6" binding="JFrame1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+     <margin top="0" left="0" bottom="0" right="0"/>
+     <constraints>
+       <xy x="20" y="20" width="500" height="400"/>
+-      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+     </constraints>
+-    <properties/>
++    <properties>
++      <background color="-1"/>
++    </properties>
+     <border type="none"/>
+     <children/>
+   </grid>

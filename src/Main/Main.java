@@ -1,13 +1,11 @@
 package Main;
-import javax.swing.*;
+import View.NostroFrame;
 
-    public class Main  {
+public class Main  {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
             System.out.println("Hello world!");
             System.out.println("feugeihuieha!");
             NostroFrame nf = new NostroFrame();
-
-
-        }
     }
+}
