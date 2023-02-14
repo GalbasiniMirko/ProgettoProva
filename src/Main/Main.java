@@ -1,7 +1,7 @@
 package Main;
 import javax.swing.*;
 
-    public class Main  { // Creiamo una sottoclasse di Jframe
+    public class Main  {
 
         public static void main(String[] args) {
             System.out.println("Hello world!");
