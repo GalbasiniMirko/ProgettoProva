@@ -3,6 +3,7 @@ package Main;
 import View.NostroFrame;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import java.awt.*;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         //ImageIcon image = new ImageIcon("");   //create image
+        Border border = BorderFactory.createLineBorder(Color.magenta, 3);   //create border with color and weight
 
         JLabel label = new JLabel();   //create a label
         label.setText("Bro, do you even code?");   //set text of label
@@ -25,10 +27,15 @@ public class Main {
         label.setIconTextGap(-25);   //set gap of text to image
         label.setBackground(new Color(253,168,90));   //set background color
         label.setOpaque(true);   //display background color
+        label.setBorder(border);   //
+        label.setVerticalAlignment(JLabel.TOP);   //set vertical position of icon+text within label
+        label.setHorizontalAlignment(JLabel.CENTER);   //set horizontal position of icon+text within label
+        //label.setBounds(0, 0, 250, 250);   //set x,y position within frame as well as dimensions to write if setLayout of frame is null
 
         NostroFrame frame = new NostroFrame();   //creates a frame
+        //frame.setLayout(null);   //se messo a null bisogna inserire label.setBounds se no non si vedrà nulla
         frame.add(label);   //add label to frame
-        System.out.println("ciao amo");
+        //frame.pack();   //write after frame.add(label) always, adatta la grandezza del frame/label in base a quello che contiene
 
         /*List<String> stngFile = new ArrayList<String>();
         Scanner scnr = null;
