@@ -4,6 +4,7 @@ import View.NostroFrame;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,8 +23,13 @@ public class Main {
         frame.add(label);   //
 
         List<String> stngFile = new ArrayList<String>();
-        Scanner scnr = new Scanner(new FileReader(
-                "C:\\Users\\gaiac\\OneDrive\\Desktop\\scuola(5)\\gpo\\dizionario.txt"));
+        Scanner scnr = null;
+        try {
+            scnr = new Scanner(new FileReader(
+                    "C:\\Users\\gaiac\\OneDrive\\Desktop\\scuola(5)\\gpo\\dizionario.txt"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
         String str;
         while (scnr.hasNext()) {
             str = scnr.next();
