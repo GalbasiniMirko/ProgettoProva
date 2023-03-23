@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcc2bdf-9710-4ec7-87cc-832f93cb1826" name="Changes" comment="prima commit">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_12_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_02_2023_12_00__Changes_.xml" beforeDir="false" />
+    <list default="true" id="cfcc2bdf-9710-4ec7-87cc-832f93cb1826" name="Changes" comment="funzione lettura file parole">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/NostroFrame.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/NostroFrame.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/NostroFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/NostroFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676368565271</updated>
       <workItem from="1676368566392" duration="827000" />
-      <workItem from="1678183462832" duration="3934000" />
+      <workItem from="1678183462832" duration="3980000" />
+      <workItem from="1679391593923" duration="828000" />
+      <workItem from="1679567317233" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="prima commit">
       <created>1676368708156</created>
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676368708156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="vaffanculo galba">
+      <created>1678187717658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678187717658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,7 +84,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prima commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="prima commit" />
+    <MESSAGE value="vaffanculo galba" />
+    <MESSAGE value="funzione lettura file parole" />
+    <option name="LAST_COMMIT_MESSAGE" value="funzione lettura file parole" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProgettoProva$Main.ic" NAME="Main Coverage Results" MODIFIED="1678187200828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

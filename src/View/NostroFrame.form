@@ -17,7 +17,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="d58e4" class="javax.swing.JButton" binding="button5" default-binding="true">
@@ -29,7 +29,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="62db2" class="javax.swing.JButton" binding="button6" default-binding="true">
@@ -41,7 +41,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="62131" class="javax.swing.JButton" binding="button7" default-binding="true">
@@ -53,7 +53,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="2df4" class="javax.swing.JButton" binding="button8" default-binding="true">
@@ -65,7 +65,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="343f8" class="javax.swing.JButton" binding="button9" default-binding="true">
@@ -77,7 +77,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="fb52d" class="javax.swing.JButton" binding="button10" default-binding="true">
@@ -89,7 +89,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="2dbb8" class="javax.swing.JButton" binding="button11" default-binding="true">
@@ -101,7 +101,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="7586e" class="javax.swing.JButton" binding="button12" default-binding="true">
@@ -113,7 +113,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="27333" class="javax.swing.JButton" binding="button13" default-binding="true">
@@ -125,7 +125,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="ade65" class="javax.swing.JButton" binding="button14" default-binding="true">
@@ -137,7 +137,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="bf5a4" class="javax.swing.JButton" binding="button15" default-binding="true">
@@ -149,7 +149,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="237d" class="javax.swing.JButton" binding="button16" default-binding="true">
@@ -161,7 +161,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="946e1" class="javax.swing.JButton" binding="button1" default-binding="true">
