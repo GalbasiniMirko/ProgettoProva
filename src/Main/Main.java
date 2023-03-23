@@ -29,6 +29,7 @@ public class Main {
         NostroFrame frame = new NostroFrame();   //creates a frame
         frame.add(label);   //add label to frame
         System.out.println("ciao amo");
+
         /*List<String> stngFile = new ArrayList<String>();
         Scanner scnr = null;
         try {
