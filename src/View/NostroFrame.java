@@ -16,7 +16,7 @@ public class NostroFrame extends JFrame {
         this.setVisible(true);   //make frame visible
         //this.getContentPane().setBackground(new Color(0x123456));   //change color of background
 
-        //ImageIcon image = new ImageIcon("");   //create an ImageIcon
-        //this.setIconImage(image.getImage());   //change icon of this
+        ImageIcon image = new ImageIcon("LogoProgettoGPO.png");   //create an ImageIcon
+        this.setIconImage(image.getImage());   //change icon of this
     }
 }
