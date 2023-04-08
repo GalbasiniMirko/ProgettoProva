@@ -2,32 +2,21 @@ package View;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class NostroFrame extends JFrame {
     private JPanel JPanel1;
-    private JButton button1;
-    private JButton button2;
-    private JButton button4;
-    private JButton button5;
-    private JButton button6;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
-    private JButton button10;
-    private JButton button11;
-    private JButton button12;
-    private JButton button13;
-    private JButton button14;
-    private JButton button15;
-    private JButton button16;
 
+    //JFrame = a GUI window to add components to
     public NostroFrame() {
-        setTitle("Il Paroliere");
-        setSize(600, 500);
-        setContentPane(JPanel1);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true);
+        this.setTitle("Il Paroliere");   //sets title of frame
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   //exit out of application
+        this.setResizable(false);   //prevent frame from being resized
+        this.setSize(1000, 600);   //sets the x-dimension, and y-dimension of frame
+        this.setLocation(250, 75);   //set location of frame
+        this.setVisible(true);   //make frame visible
+        //this.getContentPane().setBackground(new Color(0x123456));   //change color of background
+
+        ImageIcon image = new ImageIcon("LogoProgettoGPO.png");   //create an ImageIcon
+        this.setIconImage(image.getImage());   //change icon of this
     }
 }
